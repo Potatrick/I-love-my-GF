@@ -1,0 +1,27 @@
+.container {
+    position: relative; /* Set the position to relative for positioning the button */
+    display: inline-block; /* Ensure container shrinks to fit the content */
+}
+
+.container img {
+    display: block; /* Make the image a block element */
+    max-width: 100%; /* Ensure the image does not exceed container width */
+}
+
+#audioButton {
+    position: absolute; /* Set the position to absolute for positioning the button */
+    top: 722px; /* Adjust the distance from the top */
+    right: 865px; /* Adjust the distance from the right */
+    padding: 10px; /* Add padding to the button */
+    background-color: rgba(255, 255, 255, 0); /* White color with 50% opacity */
+    color: #fff; /* Set the text color */
+    border: none; /* Remove border */
+    border-radius: 70%; /* Make the button round */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    z-index: 999; /* Set z-index to ensure the button appears above the image */
+}
+
+#audioButton img {
+    width: 50px; /* Set the width of the image */
+    height: 50px; /* Set the height of the image */
+}
