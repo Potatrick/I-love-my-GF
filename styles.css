@@ -4,3 +4,7 @@
     border: none; /* Remove border */
     cursor: pointer; /* Change cursor to pointer on hover */
 }
+
+body {
+    font-family: Georgia, serif;
+}
